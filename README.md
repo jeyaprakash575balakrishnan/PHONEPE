@@ -52,7 +52,7 @@ To insert the datadrame into SQL first I've created a new database and tables us
 
 Creating the connection between python and mysql
 
-mydb = pymysql.connect(host = '127.0.0.1',user='root',passwd='Hari@161297',database = "phonepe") mycursor = mydb.cursor()
+mydb = pymysql.connect(host = '127.0.0.1',user='root',passwd='Jeya@123',database = "phonepe") mycursor = mydb.cursor()
 
 Creating tables mycursor.execute("create table agg_trans (State varchar(100), Year int, Quarter int, Transaction_type varchar(100), Transaction_count int, Transaction_amount double)")
 
